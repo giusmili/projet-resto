@@ -6,6 +6,6 @@ Ouvert depuis moins d’un an, notre établissement est spécialisé dans le sec
 
 ![cover](./asset/cover.svg)
 
-Concepteur &amp; réalisateur **Heisenberg product**
+Concepteur &amp; réalisateur **Heisenberg Product**
 
 ![AUR License](https://img.shields.io/aur/license/c)

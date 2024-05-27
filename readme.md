@@ -7,6 +7,15 @@ Ouvert depuis moins d’un an, notre établissement est spécialisé dans le sec
 
 ![cover](./asset/cover.svg)
 
+## Charte grphique &amp; typographique
+* Palette couleur
+![palette](./asset/Palette%20couleur%20projet.png)
+* Typo : Roboto Slab
+![typo](./asset/typo.PNG)
+* Iconographie
+![Icones](./asset/icon.PNG)
+
+
 Concepteur &amp; réalisateur **Heisenberg Product**
 
 ![AUR License](https://img.shields.io/aur/license/c)

@@ -1,0 +1,18 @@
+@import url(./reset.css);
+/* theme css */
+
+:root{ /* initialiser les variables pour la palette couleur */
+    --blue-primary: #22108e;
+    --red-primary: #861515;
+    --red-secondary: #d11515;
+    --gold-primary: #b1a45e;
+    --white-primary: #ffffff;
+
+}
+header > h1, section h2, figcaption h3{
+    color: var(--gold-primary);
+}
+
+figure figcaption p{
+    color: var(--blue-primary);
+}

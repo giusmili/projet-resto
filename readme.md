@@ -18,6 +18,6 @@ Ouvert depuis moins d’un an, notre établissement est spécialisé dans le sec
 
 Concepteur &amp; réalisateur **Heisenberg Product**
 
-> [Voir la publication](https://giusmili.github.io/projet-resto/)
+> 🔥[Voir la publication](https://giusmili.github.io/projet-resto/)
 
 ![AUR License](https://img.shields.io/aur/license/c)

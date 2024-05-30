@@ -12,6 +12,9 @@ body{
     margin: 0;
     letter-spacing: 0.1rem;
     line-height: 1.6;
+    display: grid;
+    grid-template-rows: 1fr 1fr auto 1fr;
+    height: 100vh;
 }
 h1, 
 h2, 
@@ -26,7 +29,7 @@ blockquote,
 figure{
     margin: 0;
     padding: 0;
-    list-style-type: 0;
+    list-style-type: none;
 }
 a{
     text-decoration: none;
@@ -39,4 +42,9 @@ img{
 }
 *{
     box-sizing: border-box;
+}
+button{
+    padding: 0;
+    background: transparent;
+    border: 0;
 }

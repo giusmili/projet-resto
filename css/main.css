@@ -173,5 +173,8 @@ footer *{
         text-align: center;
       
     }
+    header h1, section h2{
+        font-size: 4rem;
+    }
 
 }

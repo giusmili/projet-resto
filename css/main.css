@@ -123,3 +123,54 @@ footer *{
     background-color: var(--red-primary);
     color: var(--white-primary);
 }
+
+/* dispositif mobile */
+@media screen and (max-width: 80rem){
+    body{
+        margin: 0 1%;
+    }
+    header{
+
+        height: auto;
+    }
+    nav ul{
+       /*  display: flex;
+        flex-direction: row;
+        align-items: center; */
+        display: block;
+        width: auto;
+    }
+    nav ul li{
+        background-color: #3737e9;
+        display: block;
+        width: auto;
+        margin-bottom: .1rem;
+    }
+
+    header p{
+        width: auto;
+        text-align: justify;
+        padding: 1%;
+    }
+    header img{
+      
+        width: 100%;
+    }
+    section ul{
+        display: block;
+        
+    }
+    section ul li figure figcaption, :is(img){
+        display: block;
+        width: calc(100% / 1);
+   
+    
+    }
+    header h1, section h2{
+     
+        width: auto;
+        text-align: center;
+      
+    }
+
+}

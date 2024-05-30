@@ -57,4 +57,29 @@ nav ul li a{
     text-transform: capitalize;
     color: var(--white-primary);
 }
-/* header */
+/* 
+    header 
+*/
+header h1{
+    font-size: 5.5rem;
+    text-transform: uppercase;
+    width: max-content;
+    margin: 0 auto;
+    border-bottom: solid .1rem var(--gold-primary);
+    color: var(--white-primary);
+}
+header{
+    text-align: center;
+    padding-bottom: 1rem;
+    border-bottom: solid .5rem var(--gold-primary);
+}
+header p{
+    text-align: center;
+    color: var(--white-primary);
+    max-width: 60rem;
+    margin: 1rem auto;
+}
+
+header img{
+    border: solid 1.5rem var(--gold-primary);
+}

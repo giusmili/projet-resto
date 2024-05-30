@@ -83,7 +83,7 @@ header p{
 }
 
 header img{
-    border: solid 1.5rem var(--gold-primary);
+    border: solid 1rem var(--gold-primary);
     width: 40rem;
 }
 section{

@@ -115,6 +115,7 @@ section ul li figure  figcaption h3{
 section ul li figure  figcaption p{
     font-size: 2rem;
     color: var(--white-primary);
+    text-overflow: ellipsis;
 }
 footer *{
     line-height: 3.5rem;

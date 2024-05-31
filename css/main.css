@@ -85,7 +85,7 @@ header p{
 
 header img{
     border: solid 1rem var(--gold-primary);
-    width: 40rem;
+    width: 50rem;
 }
 section{
     background-color: var(--red-primary);

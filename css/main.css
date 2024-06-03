@@ -171,7 +171,9 @@ footer *{
     text-align: center;
     background-color: var(--red-primary);
     color: var(--white-primary);
+    
 }
+
 
 /* dispositif mobile */
 @media screen and (max-width: 80rem){

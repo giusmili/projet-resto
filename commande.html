@@ -62,12 +62,14 @@
             <label for="first-name">Votre nom</label>
             <form action="commande.html" method="get">
                 <input 
-                type="text" 
-                name="first-name"
-                id="first-name" 
-                placeholder="Votre nom" 
-                required 
-                aria-required="true">
+                    type="text" 
+                    name="first-name"
+                    id="first-name" 
+                    placeholder="Votre nom" 
+                    required 
+                    aria-required="true"
+                    autofocus
+                >
 
                 <!-- date & heure -->
                 <label for="meeting-time">Choose a time for your appointment:</label>
@@ -75,17 +77,17 @@
 
                 <label for="nombre">Nombre de personne</label>
                 <input type="number" name="nombre" id="nombre" 
-                min="1" 
-                max="10" 
-                placeholder="nombre" 
-                required 
-                aria-required="true">
+                    min="1" 
+                    max="10" 
+                    placeholder="nombre" 
+                    required 
+                    aria-required="true">
 
                 <label for="email">Votre mail</label>
                 <input type="email" id="email" name="email" 
-                placeholder="Votre email"
-                required 
-                aria-required="true"
+                    placeholder="Votre email"
+                    required 
+                    aria-required="true"
                 >
 
                 <input type="submit" value="Envoyer">

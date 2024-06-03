@@ -122,6 +122,50 @@ section ul li figure  figcaption p{
     color: var(--white-primary);
     text-overflow: ellipsis;
 }
+.form-primary fieldset{
+    max-width: 90rem;
+    margin: 0 auto;
+    background-color: var(--red-primary);
+}
+.form-primary fieldset{
+    padding: 1rem;
+    border-radius: .4rem;
+    border: solid .1rem var(--gold-primary);
+}
+.form-primary fieldset legend{
+    color: var(--white-primary);
+    font-size: 1.7rem;
+}
+.form-primary form input, :is(label){
+    display: block;
+    margin-bottom: 1rem;
+    width: 100%;
+    border: 0;
+    line-height: 4.5rem;
+}
+.form-primary form input{
+    border-radius: .4rem;
+}
+.form-primary form input[type="submit"]{
+    margin: 0;
+    font-size: inherit;
+    display: block;
+    margin: 0 auto;
+    width: 10vw;
+    background-color: var(--blue-primary);
+    color: var(--white-primary);
+    cursor: pointer;
+}
+
+.form-primary form [placeholder]{
+    color: #333;
+    font-size: inherit;
+    text-transform: capitalize;
+    font-style: italic;
+}
+.form-primary form label{
+    color: var(--white-primary);
+}
 footer *{
     line-height: 3.5rem;
     text-align: center;
@@ -159,7 +203,7 @@ footer *{
         padding: 1%;
     }
     header img{
-      
+        display: inline-block;
         width: 100%;
     }
     section ul{
@@ -180,6 +224,15 @@ footer *{
     }
     header h1, section h2{
         font-size: 4rem;
+    }
+    .form-primary fieldset{
+        width: auto;
+ 
+    }
+    .form-primary form input[type="submit"]{
+        display: initial;
+        width: 100%;
+    
     }
 
 }
